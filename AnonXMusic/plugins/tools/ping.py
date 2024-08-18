@@ -8,13 +8,13 @@ from AnonXMusic.core.call import Anony
 from AnonXMusic.utils import bot_sys_stats
 from AnonXMusic.utils.decorators.language import language
 from AnonXMusic.utils.inline import supp_markup
-from config import BANNED_USERS, VIDEO_PATH  # Make sure to import VIDEO_PATH 
+from config import BANNED_USERS, VIDEO_PATH_URL  # Make sure to import VIDEO_PATH_URL 
 
 # Assuming VIDEO_PATH is defined correctly in your config.py
-# VIDEO_PATH = "https://example.com/your_video.mp4" 
+# VIDEO_PATH_URL = "https://example.com/your_video.mp4" 
 
 
-VIDEO_PATH = "https://graph.org/file/7fd7aa71aa57a235a8944.mp4"
+VIDEO_PATH_URL = "https://graph.org/file/7fd7aa71aa57a235a8944.mp4"
 
 
 @app.on_message(filters.command(["ping", "alive"]) & ~BANNED_USERS)
