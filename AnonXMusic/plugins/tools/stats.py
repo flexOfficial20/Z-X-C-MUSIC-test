@@ -25,7 +25,7 @@ VIDEO_PATH_URL1 = "https://graph.org/file/1d804d9361d5b4d8a683c.mp4"  # Replace 
 @language
 async def stats_global(client, message: Message, _):
     upl = stats_buttons(_, True if message.from_user.id in SUDOERS else False)
-    await message.reply_videoo(
+    await message.reply_video(
         video=config.VIDEO_PATH_URL1,
         caption=_["gstats_2"].format(app.mention),
         reply_markup=upl,
