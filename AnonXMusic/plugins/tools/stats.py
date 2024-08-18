@@ -6,7 +6,7 @@ from pyrogram import __version__ as pyrover
 from pyrogram import filters
 from pyrogram.errors import MessageIdInvalid
 from pyrogram.types import InputMediaVideo, Message
-from pytgcalls.version import version as pytgver
+from pytgcalls import __version__ as pytgver
 
 import config
 from AnonXMusic import app
