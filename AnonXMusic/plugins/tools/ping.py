@@ -24,7 +24,7 @@ async def ping_com(client, message: Message, _):
 
     # Send the video first 
     response = await message.reply_video(
-        video=VIDEO_PATH,
+        video=VIDEO_PATH_URL,
         caption=_["ping_1"].format(app.mention),
     )
     
