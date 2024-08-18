@@ -5,7 +5,7 @@ import psutil
 from pyrogram import version as pyrover
 from pyrogram import filters
 from pyrogram.errors import MessageIdInvalid
-from pyrogram.types import InputMediaVideo, Message  # Import InputMediaVideo
+from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.version import version as pytgver
 
 import config
